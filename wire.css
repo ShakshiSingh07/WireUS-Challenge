@@ -1,0 +1,149 @@
+.background {
+	background-color:black;
+	
+	
+    width:100%;
+    height:100%;
+}
+
+.card {
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+position: absolute;
+width: 350px;
+height: 600px;
+left:300px;
+top: 70px;
+margin-left:18%;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0.14) 100%);
+border: 1px solid rgba(255, 255, 255, 0.44);
+backdrop-filter: blur(15px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 40px;
+	
+}
+.rat{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+
+gap: 10px;
+margin-top:15px;
+
+width: 250px;
+height: 16px;
+
+background: rgba(255, 255, 255, 0.84);
+border-radius: 50px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.ra{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+
+gap: 10px;
+margin-top:10px;
+
+width: 150px;
+height: 11px;
+
+background: darkgreen;
+border-radius: 50px;
+
+/* Inside auto layout */
+margin-left: 14%;
+color:white;
+}
+.radh{
+    color:white;
+
+}
+.cat{
+    color:white;
+
+}
+.seh{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 10px;
+
+gap: 10px;
+margin-top:10px;
+
+width: 160px;
+height: 18px;
+
+background: darkgreen;
+border-radius: 50px;
+
+/* Inside auto layout */
+margin-left: 50%;
+}
+.rad{
+        color:white;}
+        .shak{
+            justify-content: center;
+            align-items: center;
+            color:white;
+        }
+        .me{
+            color:white;
+        
+        }
+        .shi{
+            color:darkgreen;
+        }
+        .dot {
+            height: 130px;
+            width: 130px;
+            position: absolute;
+            right:85%;
+            bottom: 10%;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transform: rotate(70deg);
+            background: radial-gradient(70.38% 70.38% at 24.86% 16.04% ,#68CC58 0%,#283D14 66.13%, #263719 86.44%, #1E2316 100%) ;
+            opacity: 0.8;
+          }
+          .do {
+            height: 130px;
+            width: 130px;
+            position: absolute;
+            left:85%;
+            bottom: 75%;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transform: rotate(70deg);
+            background: radial-gradient(70.38% 70.38% at 24.86% 16.04% ,#68CC58 0%,#283D14 66.13%, #263719 86.44%, #1E2316 100%) ;
+            opacity: 0.8;
+          }
+          
+          
+
+
+
